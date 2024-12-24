@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(asser/Color\ Palette_\ Deep\ Purple\,\ Blackberry\,\ and\ Aubergine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 40px 30px;
+    background-color: rgba(255, 255, 255, 0.05); /* Warna dengan transparansi */
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 20px 10px 15px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px); /* Efek blur */
+}
+
+.login h2 {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 600;
+    background-color:#fff ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+form {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    /* border: 2px solid #ccc; */
+}
+
+form input {
+    width: 100%;
+    padding: 16px;
+    margin: 10px 0;
+    border: 1px solid ;
+    border-radius: 10px;
+    margin: 20px 12px 20px 15px;
+    outline: none;
+    background-color: #997fee;
+    color: #fff;
+    border: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+form input::placeholder {
+    color: #fff;
+    font-weight: 200;
+    
+}
+
+
+
+
+
+
+form button {
+    width: 40%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #997fee;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: all 0.5s;
+    -webkit-transition: all 0;
+    -moz-transition: all 0;
+    -ms-transition: all 0;
+    -o-transition: all 0;
+}
+
+h4 {
+    color: #fff;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    color: #2a0fd6bd;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #2a0fd6bd;
+    text-decoration: underline;
+}
+
+form button:hover{
+    background-color: #fff;
+    color: black;
+}
